@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Man page styling */
+.prose pre {
+    @apply bg-gray-100 p-4 rounded-lg overflow-x-auto;
+}
+
+.prose code {
+    @apply bg-gray-200 px-1 py-0.5 rounded;
+}
+
+.prose h1 {
+    @apply text-2xl font-bold mb-4;
+}
+
+.prose h2 {
+    @apply text-xl font-semibold mb-3 border-b pb-1;
+}
